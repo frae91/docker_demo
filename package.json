@@ -5,6 +5,10 @@
   "author": "Frae Valdehuesa (frae@codefor.asia)",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jshint": "^2.10.2"
+  },
+  "scripts": {
+    "test": "jshint server.js";
   }
 }
